@@ -1,25 +1,38 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: joeduard <joeduard@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/27 15:40:32 by joeduard          #+#    #+#             */
-/*   Updated: 2021/05/27 15:40:32 by joeduard         ###   ########.fr       */
+/*   Created: 2021/05/28 14:12:07 by joeduard          #+#    #+#             */
+/*   Updated: 2021/05/28 14:12:07 by joeduard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include"libft.h"
 
-size_t ft_strlen(const char *s)
+int atoi(const char *nptr)
 {
-    size_t i;
+    int     i;
+	int     sig;
+	int     concat;
 
-    i=0;
-    while(s[i] != '\0')
-    {
-        i++;
-    }
-    return (i);
+	i = 0;
+	sig = 1;
+	concat = 0;
+	while (nptr[i] == ' ' || (nptr[i] >= 9 && nptr[i] <= 13))
+		i++;
+	while (nptr[i] == '+' || nptr[i] == '-')
+	{
+		if (nptr[i] == '-')
+			sig *= -1;
+		i++;
+	}
+	while (nptr[i] >= '0' && nptr[i] <= '9')
+	{
+		concat = (nptr[i] - '0') + (concat * 10);
+		i++;
+	}
+	return (concat * sig);
 }

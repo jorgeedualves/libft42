@@ -1,25 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: joeduard <joeduard@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/27 15:40:32 by joeduard          #+#    #+#             */
-/*   Updated: 2021/05/27 15:40:32 by joeduard         ###   ########.fr       */
+/*   Created: 2021/05/27 15:48:45 by joeduard          #+#    #+#             */
+/*   Updated: 2021/05/27 15:48:45 by joeduard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t ft_strlen(const char *s)
+char *ft_strrchr(const char *s, int c)
 {
-    size_t i;
+    int i;
+    const char *ini;
 
-    i=0;
-    while(s[i] != '\0')
-    {
-        i++;
-    }
-    return (i);
+    ini = s;
+    i = ft_strlen(s);
+    s = (s + i);
+    while (*s != *ini && c != *s)
+        s--;
+    if (c == *s)
+        return ((char *)s);
+    return (0);         
 }
