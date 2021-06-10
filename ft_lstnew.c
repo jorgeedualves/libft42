@@ -1,26 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_calloc.c                                        :+:      :+:    :+:   */
+/*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: joeduard <joeduard@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/28 23:56:38 by joeduard          #+#    #+#             */
-/*   Updated: 2021/05/28 23:56:38 by joeduard         ###   ########.fr       */
+/*   Created: 2021/06/09 22:31:13 by joeduard          #+#    #+#             */
+/*   Updated: 2021/06/09 22:31:13 by joeduard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-void	*ft_calloc (size_t nmemb, size_t size)
+t_list * ft_lstnew (void * content)
 {
-	void	*dst;
-	size_t	total_size;
-
-	total_size = nmemb * size;
-	dst = malloc(total_size);
-	if (dst == 0)
-		return (0);
-	ft_memset (dst, 0, total_size);
-	return (dst);
+    
 }

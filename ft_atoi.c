@@ -12,11 +12,11 @@
 
 #include"libft.h"
 
-int atoi(const char *nptr)
+int	atoi (const char *nptr)
 {
-    int     i;
-	int     sig;
-	int     concat;
+	int	i;
+	int	sig;
+	int	concat;
 
 	i = 0;
 	sig = 1;
