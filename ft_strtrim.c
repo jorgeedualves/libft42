@@ -48,7 +48,7 @@ char	*ft_strtrim (char const *s1, char const *set)
 		len = end - begin + 1;
 	else
 		len = 0;
-	trim = (char *)malloc((len) * sizeof(char));
+	trim = (char *)malloc((len + 1) * sizeof(char));
 	if (trim == 0)
 		return (0);
 	ft_strlcpy (trim, &s1[begin], len + 1);
