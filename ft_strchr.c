@@ -14,9 +14,10 @@
 
 char	*ft_strchr (const char *s, int c)
 {
-	while (*s != '\0' && c != *s)
+	while (*s != '\0' && *s != (c % 256))
 		s++;
-	if (c == *s)
+	if (*s == '\0' && (c % 256) != '\0')
+		return (0);
+	else
 		return ((char *)s);
-	return (0);
 }

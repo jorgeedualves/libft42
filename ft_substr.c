@@ -12,19 +12,27 @@
 
 #include "libft.h"
 
-char	*ft_substr (char const *s, unsigned int start, size_t len)
+char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
-	char	*subs;
 	size_t	i;
-	size_t	j;
+	size_t	substr_len;
+	char	*substr;
 
-	i = start;
-	j = 0;
-	subs = (char *)malloc(len + 1);
-	if (s == 0 || subs == 0)
+	i = 0;
+	if (s == 0)
 		return (0);
-	while (i < ft_strlen(s) && j < len)
-		subs[j++] = s[i++];
-	subs[j++] = '\0';
-	return (subs);
+	substr_len = ft_strlen(s);
+	if (substr_len < len)
+		substr = (char *)malloc((substr_len + 1) * sizeof(char));
+	else
+		substr = (char *)malloc((len + 1) * sizeof(char));
+	if (substr == 0)
+		return (0);
+	while (i < len && (start + i) < substr_len)
+	{
+		substr[i] = s[start + i];
+		i++;
+	}
+	substr[i] = '\0';
+	return (substr);
 }
