@@ -10,19 +10,19 @@ The most part is in C library (see man). Others are'nt in the C library but it w
 
 🚧 project:<br/>
 ```
-42Libft $ make
+Libft42 $ make
 ```
 :shower: Clean Obj files:<br/>
 ```
-42Libft $ make clean
+Libft42 $ make clean
 ```
 :shower: :shower: Clean All (obj files + binary):<br/>
 ```
-42Libft $ make fclean
+Libft42 $ make fclean
 ```
 :shower: :shower: 🚧 Clean All + build:<br/>
 ```
-42Libft $ make re
+Libft42 $ make re
 ```
 
 <br/>See Makefile<br/>
