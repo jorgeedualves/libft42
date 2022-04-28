@@ -1,4 +1,4 @@
-# libft42
+# Libft42
 
 Objetivo deste projeto é codificar uma biblioteca C reagrupando funções usuais que poderemos usar em todos os outros projetos em 42<br/>
 
