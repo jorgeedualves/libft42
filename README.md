@@ -45,51 +45,61 @@ Libft42 $ make re
  <tr>
   <td  align="center"colspan="4">C Library ctype.h</td>
  </tr>
+ 
  <tr>
   <td align="center">Libft </td>
   <td align="center">Description </td>
  </tr>
- </tr>
+
  <tr>
   <td>ft_isalnum</td>
   <td>Checks if the character passed is alphanumeric.</td>
  </tr>
+ 
  <tr>
   <td>ft_isalpha</td>
   <td>Checks if the character passed is alphabetic.</td>
  </tr>
+ 
  <tr>
   <td>ft_isascii</td>
   <td>Checks if the character passed is ASCII.</td>
  </tr>
+ 
  <tr>
   <td>ft_digit</td>
   <td>Checks if the character passed is decimal digit.</td>
  </tr>
+ 
  <tr>
   <td>ft_isprint</td>
   <td>Checks if the character passed is printable, including space.</td>
  </tr>
+ 
  <tr>
   <td>ft_tolower</td>
   <td>Converts uppercase letters to lowercase.</td>
  </tr>
+ 
   <tr>
   <td>ft_toupper</td>
   <td>Converts lowercase letters to uppercase.</td>
  </tr>
- <br>
+ 
  <tr>
   <td  align="center"colspan="4"> C Library Sting.h</td>
  </tr>
+ 
   <tr>
   <td>ft_bzero</td>
   <td>Resets the dynamic memory region replacing whatever is there by null to clear it of junk values.</td>
  </tr>
+ 
  <tr>
   <td>ft_memchr</td>
   <td>Looks for the first occurrence of the character c (an unsigned character) in the first n bytes of the pointed string, by the str argument.</td>
  </tr>
+ 
  <tr>
   <td>ft_memcmp</td>
   <td>Compares the first n bytes of memory area str1 and memory area str2.</td>
@@ -263,17 +273,10 @@ Libft42 $ make re
  </tr>
 
  </table>
- 
- 
- 
- 
 
-
-
-
-
-### Made with:<br/>
-Jorge Alves, <br /> 
-Alfredo Neto https://github.com/Alfredo-Neto <br />
+Made with: <br/>
+Jorge Alves <br/>
+Alfredo Neto https://github.com/Alfredo-Neto<br/>
 Alexandre Zamarion https://github.com/alezamarion <br />
-See my LinkedIn:https://www.linkedin.com/in/jorge-eduardo-alves-094b4331/
+See my LinkedIn: <br />
+<a href="https://www.linkedin.com/in/jorge-eduardo-alves-094b4331/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
