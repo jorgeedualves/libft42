@@ -10,7 +10,6 @@ The most part is in C library (see man). Others are'nt in the C library but it w
 
 # Badge
 
-<img src"home/jorge/Imagens/libftm.png">
 
 🚧 project:<br/>
 ```
