@@ -8,6 +8,20 @@ A maior parte está na biblioteca C (veja man).  Outros não estão na bibliotec
 
 The most part is in C library (see man). Others are'nt in the C library but it will be so usefull further. This functions are described in subject.<br/>
 
+## Badge
+
+<img src="libftm.png">
+
+## SKills
+
+ - Imperative programming
+ - Rigor
+ - Algorithms & AI
+
+ ## My grade
+
+ <img src="score_libft.png"> 
+
 🚧 project:<br/>
 ```
 Libft42 $ make
