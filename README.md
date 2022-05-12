@@ -41,5 +41,7 @@ Libft42 $ make re
 
 <br/>See Makefile<br/>
 
-Made with Jorge, Alfredo Neto https://github.com/Alfredo-Neto e Alexandre Zamarion https://github.com/alezamarion! <br />
+Made with: Jorge Alves, 
+           Alfredo Neto https://github.com/Alfredo-Neto
+           Alexandre Zamarion https://github.com/alezamarion! <br />
 See my LinkedIn:https://www.linkedin.com/in/jorge-eduardo-alves-094b4331/
