@@ -1,8 +1,8 @@
 # Libft42
 
-Objetivo deste projeto é codificar uma biblioteca C reagrupando funções usuais que poderemos usar em todos os outros projetos em 42
+Objetivo deste projeto é codificar uma biblioteca C reagrupando funções usuais que poderemos usar em todos os outros projetos da 42.<br/>
 
-Objective of this project is to code a C library regrouping usual functions that we will be able to use in all other projects in 42<br/>
+Objective of this project is to code a C library regrouping usual functions that we will be able to use in all 42 other projects.<br/>
 
 A maior parte está na biblioteca C (veja man).  Outros não estão na biblioteca C, mas será muito útil ainda mais.  Estas funções estão descritas no assunto.
 
